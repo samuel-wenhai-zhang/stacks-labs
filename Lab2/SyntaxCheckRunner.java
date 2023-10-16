@@ -1,6 +1,6 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name -
+//Name - Samuel Zhang
 
 import java.util.Stack;
 import static java.lang.System.*;
