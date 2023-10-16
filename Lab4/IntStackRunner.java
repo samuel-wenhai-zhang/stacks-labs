@@ -1,6 +1,6 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name -
+//Name - Samuel Zhang
 
 //ArrayList of ints
 //or
@@ -23,7 +23,7 @@ public class IntStackRunner
 		System.out.println(test.peek());
 		System.out.println(test.pop());
 		System.out.println(test.pop());
-		//System.out.println(test.peek());	//blows up
+		// System.out.println(test.peek());	//blows up
 		System.out.println(test.isEmpty());
 		System.out.println(test);
 	}

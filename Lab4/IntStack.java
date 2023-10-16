@@ -1,7 +1,7 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
+//Name - Samuel Zhang
 
 //ArrayList of ints
 //or
@@ -24,31 +24,31 @@ public class IntStack
 
 	public IntStack()
 	{
-
+		listOfInts = new ArrayList<Integer>();
 	}
 
 	public void push(int item)
 	{
-
+		listOfInts.add(item);
 	}
 
 	public int pop()
 	{
-		return 0;
+		return listOfInts.remove(listOfInts.size() - 1);
 	}
 
 	public boolean isEmpty()
 	{
-		return false;
+		return listOfInts.size() == 0;
 	}
 
 	public int peek()
 	{
-		return 0;
+		return listOfInts.get(listOfInts.size() - 1);
 	}
 
 	public String toString()
 	{
-		return "";
+		return listOfInts.toString();
 	}
 }
