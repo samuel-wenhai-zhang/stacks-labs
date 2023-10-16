@@ -1,6 +1,6 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name -
+//Name - Samuel Zhang
 
 import java.util.Stack;
 import static java.lang.System.*;
@@ -9,7 +9,7 @@ public class StackTestRunner
 {
 	public static void main ( String[] args )
 	{
-		StackTester test = new StackTest("a b c d e f g h i");
+		StackTest test = new StackTest("a b c d e f g h i");
 		out.println(test);
 		test.popEmAll();
 
