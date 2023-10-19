@@ -7,6 +7,7 @@ public class InToPostRunner {
         InToPost converter = new InToPost("");
         Scanner in = new Scanner(System.in);
         while (true) {
+            System.out.println("Enter an infix expression to be converted into postfix ('quit' to exit): ");
             String input = in.nextLine();
             if (input.equals("quit")) {
                 break;
